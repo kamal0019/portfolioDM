@@ -38,7 +38,7 @@ const setCharacter = (
               }
             });
             resolve(gltf);
-            setCharTimeline(character, camera);
+            setCharTimeline(character as any);
             setAllTimeline();
             if (character.getObjectByName("footR")) character.getObjectByName("footR")!.position.y = 3.36;
             if (character.getObjectByName("footL")) character.getObjectByName("footL")!.position.y = 3.36;
