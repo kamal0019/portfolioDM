@@ -61,36 +61,36 @@ const SocialIcons = () => {
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
           <a
-            href="https://github.com/akashrmalhotra"
-            target="_blank"
-            rel="noreferrer"
+            href="#"
+            onClick={(e) => e.preventDefault()}
+            style={{ cursor: "not-allowed" }}
           >
             <FaGithub />
           </a>
         </span>
         <span>
           <a
-            href="https://www.linkedin.com/in/diksha-mathur-1b58741a8"
-            target="_blank"
-            rel="noreferrer"
+            href="#"
+            onClick={(e) => e.preventDefault()}
+            style={{ cursor: "not-allowed" }}
           >
             <FaLinkedinIn />
           </a>
         </span>
         <span>
           <a
-            href="https://www.youtube.com/@Leftbraincoder"
-            target="_blank"
-            rel="noreferrer"
+            href="#"
+            onClick={(e) => e.preventDefault()}
+            style={{ cursor: "not-allowed" }}
           >
             <FaYoutube />
           </a>
         </span>
         <span>
           <a
-            href="https://www.instagram.com/leftbraincoder/"
-            target="_blank"
-            rel="noreferrer"
+            href="#"
+            onClick={(e) => e.preventDefault()}
+            style={{ cursor: "not-allowed" }}
           >
             <FaInstagram />
           </a>

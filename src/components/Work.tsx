@@ -60,6 +60,7 @@ const Work = () => {
             onClick={goToPrev}
             aria-label="Previous project"
             data-cursor="disable"
+            disabled
           >
             <MdArrowBack />
           </button>
@@ -68,6 +69,7 @@ const Work = () => {
             onClick={goToNext}
             aria-label="Next project"
             data-cursor="disable"
+            disabled
           >
             <MdArrowForward />
           </button>
@@ -121,6 +123,7 @@ const Work = () => {
                 onClick={() => goToSlide(index)}
                 aria-label={`Go to project ${index + 1}`}
                 data-cursor="disable"
+                disabled
               />
             ))}
           </div>
