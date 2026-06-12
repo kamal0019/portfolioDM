@@ -8,14 +8,14 @@ const projects = [
     title: "Store Sales Dashboard",
     category: "Excel Analytics Project",
     tools: "Excel, Pivot Tables, Dashboards, Data Cleaning",
-    image: "/images/callhq.png", // Using placeholder image
+    image: "/images/sale.png", 
     link: "#",
   },
   {
     title: "Power BI Analytics Practice Project",
     category: "Power BI Analytics Project",
     tools: "Power BI, Data Modeling, DAX, Interactive Dashboards",
-    image: "/images/broki.png", // Using placeholder image
+    image: "/images/power-bi-dashboard.jpg", 
     link: "#",
   },
 ];
