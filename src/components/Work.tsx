@@ -5,17 +5,31 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Store Sales Dashboard",
-    category: "Excel Analytics Project",
-    tools: "Excel, Pivot Tables, Dashboards, Data Cleaning",
-    image: "/images/sale.png", 
+    title: "Customer Behavior Analysis",
+    category: "Data Analytics Project",
+    tools: "Data Analysis, Dashboards",
+    image: "/images/Customer Behavior Analysis.jpeg",
     link: "#",
   },
   {
-    title: "Power BI Analytics Practice Project",
+    title: "Excel Sales Dashboard",
+    category: "Excel Analytics Project",
+    tools: "Excel, Pivot Tables, Dashboards",
+    image: "/images/Excel Sales Dashboard .jpeg",
+    link: "#",
+  },
+  {
+    title: "PowerBI Sales Overview",
     category: "Power BI Analytics Project",
-    tools: "Power BI, Data Modeling, DAX, Interactive Dashboards",
-    image: "/images/power-bi-dashboard.jpg", 
+    tools: "Power BI, Dashboards",
+    image: "/images/PowerBI Sales Overveiw.jpeg",
+    link: "#",
+  },
+  {
+    title: "PowerBi E-commerce Dashboard",
+    category: "Power BI Analytics Project",
+    tools: "Power BI, Dashboards, Data Modeling",
+    image: "/images/PowerBi-E-commmercse Dashboard.jpeg",
     link: "#",
   },
 ];
@@ -60,7 +74,6 @@ const Work = () => {
             onClick={goToPrev}
             aria-label="Previous project"
             data-cursor="disable"
-            disabled
           >
             <MdArrowBack />
           </button>
@@ -69,7 +82,6 @@ const Work = () => {
             onClick={goToNext}
             aria-label="Next project"
             data-cursor="disable"
-            disabled
           >
             <MdArrowForward />
           </button>
@@ -123,7 +135,6 @@ const Work = () => {
                 onClick={() => goToSlide(index)}
                 aria-label={`Go to project ${index + 1}`}
                 data-cursor="disable"
-                disabled
               />
             ))}
           </div>
